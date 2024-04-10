@@ -247,7 +247,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import GradientBoostingClassifier
 
-def predict_weather(input_data, k=5):
+def predict_weather(input_data, k):
     # Load the dataset
     df = pd.read_csv("seattle-weather.csv.xls")
 
